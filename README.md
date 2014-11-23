@@ -1,0 +1,1 @@
+This is my tamplate. With Java settings.
