@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ACL: Home</title>
+
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- Bootstrap -->
+	
+	<script src="@routes.Assets.at("js/modernizr.custom.js")"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<link href="@routes.Assets.at("css/bootstrap.min.css")" rel="stylesheet">
+	<link href="@routes.Assets.at("css/jquery.fancybox.css")" rel="stylesheet">
+	<link href="@routes.Assets.at("css/flickity.css")" rel="stylesheet" >
+	<link href="@routes.Assets.at("css/animate.css")" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="@routes.Assets.at("css/styles.css")" rel="stylesheet">
+	<link href="@routes.Assets.at("css/ingion.css")" rel="stylesheet">
+	<link href="@routes.Assets.at("css/queries.css")" rel="stylesheet">
+	<link href="@routes.Assets.at("css/shakibadds.css")" rel="stylesheet">
+</head>
+<body class= "home-page">
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- open/close -->
+	
+	<div class="mdl-layout mdl-js-layout myNavbarcolor">
+			<header class="mdl-layout__header mdl-layout__header--scroll">
+	    		<div class="mdl-layout__header-row ">
+	    			<span class="headerlogo">  <img class='logo' src="@routes.Assets.at("img/large/Logo/ACL.png")" alt="ACL Logo" height="100%" width="100%"> </span>
+	      			<!-- Title -->
+	      			<span class="space"></span>
+			      	<a href="/"> <span class="mdl-layout-title companyName headerColor"> American Computers Limited</span></a>
+			      	<!-- Add spacer, to align navigation to the right -->
+			      	<div class="mdl-layout-spacer"></div>
+			      	<!-- Navigation -->
+			      	<nav class="mdl-navigation headerColor">
+			        	<a class="mdl-navigation__link" href="/">Home</a>
+			        	<a class="mdl-navigation__link" href="#courses">Courses</a>
+			        	<a class="mdl-navigation__link" href="#products">Products</a>
+			        	<a class="mdl-navigation__link" href="">About</a>
+			        	<a class="mdl-navigation__link" href="#contact">Contacts</a>
+			      	</nav>
+			    </div>
+	  		</header>
+	  		<div class="mdl-layout__drawer">
+	  			<span class="sidebarlogo">  <img class='logo' src="@routes.Assets.at("img/large/Logo/ACL.png")" alt="ACL Logo" height="80%" width="80%"> </span>
+			    <nav class="mdl-navigation">
+			      	<a class="mdl-navigation__link" href="/">Home</a>
+			      	<a class="mdl-navigation__link" href="/#courses">Courses</a>
+			      	<a class="mdl-navigation__link" href="/#products">Products</a>
+			      	<a class="mdl-navigation__link" href="">About</a>
+			        <a class="mdl-navigation__link" href="/#contact">Contacts</a>
+			    </nav>
+			 </div>
+  		<main class="mdl-layout__content">
+
+  			<section class="headerImage">
+  			</section>
+  			<section class="courses" id="courses">
+  				<h1>Our courses</h1>
+  				<div class="container courseContainer">
+	  				<div class="row">
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/Cisco-net.jpg")') no-repeat center center;">
+										<!--
+										<h2 class="mdl-card__title-text">Cisco</h2>
+									-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This course covers materials of Cisco Certification.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/Java.jpg")') no-repeat center center;">
+										<!--<h2 class="mdl-card__title-text">Sample Course Title</h2>-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This course contains introductory training for java programming.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/courses/java">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/AI.jpg")') no-repeat center center;">
+										<!--<h2 class="mdl-card__title-text">Sample Course Title</h2>-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This course contains training on Adobe Photoshop, Illustrator etc.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  				</div>
+	  				<div class="row">
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/basic.jpg")') no-repeat center center;">
+										<!--
+										<h2 class="mdl-card__title-text">Cisco</h2>
+									-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This course covers materials for basic computing ComPTIA-A+ certificate.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/office.jpg")') no-repeat center center;">
+										<!--<h2 class="mdl-card__title-text">Sample Course Title</h2>-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This course contains training on Microsoft Office.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand" style="background: url('@routes.Assets.at("img/aclImg/MCSE.jpg")') no-repeat center center;">
+										<!--<h2 class="mdl-card__title-text">Sample Course Title</h2>-->
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	This is certification course for Microsoft Certified System Engineers.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/courses/mcse">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  				</div>
+	  				<div class="row">
+	  					<div class="courseViewMore">
+	  						
+	  					</div>
+	  				</div>
+	  				<!--
+	  				<div class="row">
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand">
+										<h2 class="mdl-card__title-text">Sample Course Title</h2>
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								    	Aenan convallis.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand">
+										<h2 class="mdl-card__title-text">Sample Course Title</h2>
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								    	Aenan convallis.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  					<div class="col-md-4">
+	  						<div class="courseCard">
+								<div class="demo-card-square mdl-card mdl-shadow--2dp">
+									<div class="mdl-card__title mdl-card--expand">
+										<h2 class="mdl-card__title-text">Sample Course Title</h2>
+									</div>
+								  	<div class="mdl-card__supporting-text">
+								    	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								    	Aenan convallis.
+								  	</div>
+								  	<div class="mdl-card__actions mdl-card--border">
+								    	<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								      		View Updates
+								    	</a>
+								  	</div>
+								</div>
+							</div>
+	  					</div>
+	  				</div>-->
+  				</div>
+  			</section>
+
+  			<section class="product" id="products">
+  				<h1>
+					Meet ODDUU
+				</h1>
+				<br><br>
+  				<div class="container-fluid">
+  					<div class="row">
+						<div class="col-md-6 balancein">
+							<img src="@routes.Assets.at("img/device.jpg")" alt="Creativity with logic " align="middle">
+						</div>
+						<div class="col-md-6">
+							<h2>Meet our 30$ access to 300$ PC performance</h2>
+							<div class="description">
+								On average only 20% overall resources of a PC is generally used when a single user uses a single PC. So, <i>80% potential of your 300$ investment</i> is idle most of the time. <b>We give you a 30$ solution of use those 80% potential and compress 4 PCs into a single one.</b>
+							</div>
+							<br>
+							<br>
+							<div class="row">
+								<div class="col-md-4">
+								</div>
+								<div class="col-md-4 productView">
+									<button class="mdl-button mdl-js-button mdl-js-ripple-effect productViewButton">
+									  	(<i class="fa fa-eye">) </i> View Details <i class="fa fa-chevron-right"></i>
+									</button>
+								</div>
+								<div class="col-md-4">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+  			</section>
+
+  			<section class="contactus" id="contact">
+				<div class="container">
+					<h1>
+						Find Us
+					</h1>
+					<div calss="row">
+						<div class="col-md-8">
+
+							<div class="mdl-card mdl-shadow--2dp demo-card-wide">
+	  							<div class="mdl-card__title contacttitle">
+						    		<h2 class="mdl-card__title-text">
+						    			Have something to ask?
+						    		</h2>
+						 		 </div>
+	  							<div class="mdl-card__supporting-text">
+	  								<form action="#">
+	  									<div class="row">
+	  										<div class="col-md-6">
+			  									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo mytextfield">
+			    									<input class="mdl-textfield__input" type="text" id="sample3" />
+			    									<label class="mdl-textfield__label" for="sample3">Let us know your name...</label>
+			  									</div>
+											</div>
+											<div class="col-md-6">
+												<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo mytextfield">
+			    									<input class="mdl-textfield__input" type="text" id="sample3" />
+			    									<label class="mdl-textfield__label" for="sample3">And your email...</label>
+			  									</div>
+			  								</div>
+			  							</div>
+			  							<div class="row">
+		  									<div class="col-md-12">
+			  									<div class="mdl-textfield mdl-js-textfield textfield-demo mytextfield">
+			    									<textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+			    									<label class="mdl-textfield__label" for="sample5">And tell us whats on your mind...</label>
+			  									</div>
+			  								</div>
+		  								</div>
+									</form>
+	  							</div>
+	  							<div class="mdl-card__actions mdl-card--border">
+	    							<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+	      								Submit
+	    							</a>
+	  							</div>
+							</div>
+
+						</div>
+						
+						<div class = "col-md-4">
+							<!-- Event card -->
+							<div class="mdl-card mdl-shadow--2dp demo-card-wide letuscontact">
+	 							<div class="mdl-card__title letuscontact-title">
+	    							<h2 class="mdl-card__title-text">Or you want to reach us?</h2>
+	  							</div>
+		  						<div class="mdl-card__supporting-text letuscontact-body">
+		  							<h4>
+		  								Give us a call
+		  							</h4>
+		  							<div class="telephone">
+		  								<i class="fa fa-phone"></i><a href="tel:+8801937999532"> +8801919968025</a>
+		  							</div>
+		  							<h4>
+		  								Or reach us at
+		  							</h4>
+		  							<div class="address">
+		  								<i class="fa fa-home"></i> <a href="https://www.here.com/directions/drive/mylocation/American-Computer-Limited:23.752938,90.387939?map=23.74771,90.38764,15,traffic&fb_locale=en_US" target="_blank">147/A/1 Grren Road, Dhaka</a>
+		  							</div>
+		  						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="endorse">
+				<div class="container-fluid">
+					<div class="row">
+
+						<div class="col-md-12 tweetslider nopadding">
+							<div class="endorse-slider">
+								<ul class="slides" id="featuresSlider">
+
+
+
+									<li class="row">
+										<div class="avatar col-md-6">
+											<p>
+												<img src="@routes.Assets.at("img/avatar.jpg")">
+											</p>
+										</div>
+
+										<div class="col-md-6">
+											<p>Ingion is the best network solution provider I've ever worked with. They did this and that very efficiently.</p>
+											<p class="endorser"><a href="twitter.com">Satya Nadella</a><br><span>CEO, Microsoft</span></p>
+										</div>
+									</li>
+
+
+
+									<li class="row">
+										<div class="avatar col-md-6">
+											<p>
+												<img src="@routes.Assets.at("img/avatar2.jpg")">
+											</p>
+										</div>
+
+										<div class="col-md-6">
+											<p>We're very impressed with ingion's services. We recommend them strongly.</p>
+											<p class="endorser"><a href="twitter.com">Matías Duarte</a><br><span>VP of design, Google</span></p>
+										</div>
+
+									</li>
+
+
+
+
+									<li class="row">
+										<div class="avatar col-md-6">
+											<p>
+												<img src="@routes.Assets.at("img/avatar3.jpg")">
+											</p>
+										</div>
+
+										<div class="col-md-6">
+											<p>Cheap and works. Ingion all the way.</p>
+											<p class="endorser"><a href="twitter.com">Mark Zuckerberg</a><br><span>CEO, Facebook</span></p>
+										</div>
+
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+
+			<svg id="bigHalfCircle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M0 100 C40 0 60 0 100 100 Z"></path>
+			</svg>
+
+			<footer>
+
+				<div class="container">
+					<div class="row">
+						<img class='logo' src="@routes.Assets.at("img/ACL inverted.png")" alt="ACL Logo">
+					</div>
+					<div class="row">
+						<div class="companyName">
+							American Computers Ltd
+						</div>
+					</div>
+					<div class="socialicons row">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus-square"></i></a>
+
+					</div>
+					<!--
+					<nav>
+						<a href="#">Home</a>
+						<a href="#">Products</a>
+						<a href="#">About</a>
+						<a href="#">Jobs</a>
+						<a href="#">Blog</a>
+						<a href="#">Contact</a>
+
+					</nav>
+				-->
+					<div class="footerend row">
+						&copy; 2015 American Computers Ltd., All rights reserved.
+					</div>
+				</div>
+
+			</footer>
+  		</main>
+	</div>
+
+		
+	<!--
+		<section class="blogroll">
+			<div class="container">
+				<div class="row">
+					<h1>Stories</h1>
+					<h3>From the blog</h3>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-sm-12 blog-right">
+						<div class="blogentry">
+							<h2>Towards a Better Tomorrow</h2>
+							<p>The CEO talks about the far-reaching vision of ingion.</p>
+							<a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 blog-left">
+						<div class="blogentry">
+							<h2>A Great Day</h2>
+							<p>Ingion launches public beta of their first product.</p>
+							<a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	-->
+		
+
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="@routes.Assets.at("js/min/toucheffects-min.js")"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="@routes.Assets.at("js/flickity.pkgd.min.js")"></script>
+		<script src="@routes.Assets.at("js/jquery.fancybox.pack.js")"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="@routes.Assets.at("js/retina.js")"></script>
+		<script src="@routes.Assets.at("js/waypoints.min.js")"></script>
+		<script src="@routes.Assets.at("js/bootstrap.min.js")"></script>
+		<script src="@routes.Assets.at("js/scripts.js")"></script>
+
+		<script src="@routes.Assets.at("js/snap.svg-min.js")"></script>
+		<script src="@routes.Assets.at("js/hovers.js")"></script>
+
+	</body>
+	</html>

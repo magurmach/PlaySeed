@@ -6,4 +6,6 @@
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Home page
-GET     /                           controllers.Home.index()
+GET		/						controllers.Home.index()
+GET		/courses/java			controllers.Home.javaCourse()
+GET		/courses/mcse			controllers.Home.mcseCourse()

@@ -1,4 +1,4 @@
-name := "play"
+name := "acl"
 
 version := "1.0-SNAPSHOT"
 
@@ -9,7 +9,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-slick" % "0.8.0",
   // Add your own project dependencies in the form:
   // "group" % "artifact" % "version"
-  "mysql" % "mysql-connector-java" % "5.1.27"
+  "postgresql" % "postgresql" % "9.1-901-1.jdbc4"
 )
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)

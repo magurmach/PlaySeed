@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+
+.arrowDown{
+	margin-top: -32px;
+	color:#fff;
+	padding: 0px;
+	text-align: center;
+}
+.dark{
+	color: rgb(44, 25, 56);
+}
+.aboutusHeader{
+	background: rgb(44, 25, 56);
+	padding-top: 40px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
+    box-shadow: 0 1px 4px -2px #232323;
+    -moz-box-shadow: 0 1px 4px -2px #232323;
+    -webkit-box-shadow: 0 1px 4px -2px #232323;
+}
+
+.aboutusHeader h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.aboutusHeader .paragraph{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 1em;
+	padding-bottom: 20 px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.smoothing{
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-font{
+}
+.myicon{
+	font-size: 75px;
+}
+
+.balance img{
+	vertical-align: middle;
+}
+
+
+
+.weknowbalance{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.weknowbalance h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+	color: rgb(44, 25, 56);
+}
+
+.weknowbalance .description{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 1.5em;
+	color:rgb(44, 25, 56);
+	text-align: justify;
+	margin-top: -10px;
+}
+.weknowbalance .rightway{
+	text-align: justify;
+}
+
+.weknowbalance .rightway h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color: #ff2998;
+}
+
+.weknowbalance .bestpartners h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color:#ea7323;
+}
+.weknowbalance .adaptwithyou h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color:#9cd900;
+}
+
